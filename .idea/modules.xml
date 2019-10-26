@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ass-common/ass-common.iml" filepath="$PROJECT_DIR$/ass-common/ass-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ass-dao/ass-dao.iml" filepath="$PROJECT_DIR$/ass-dao/ass-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ass-manager/ass-manager.iml" filepath="$PROJECT_DIR$/ass-manager/ass-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ass-manager/ass-manager-interface/ass-manager-interface.iml" filepath="$PROJECT_DIR$/ass-manager/ass-manager-interface/ass-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ass-manager/ass-manager-service/ass-manager-service.iml" filepath="$PROJECT_DIR$/ass-manager/ass-manager-service/ass-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ass-manager/ass-manager-web/ass-manager-web.iml" filepath="$PROJECT_DIR$/ass-manager/ass-manager-web/ass-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ass-parent/ass-parent.iml" filepath="$PROJECT_DIR$/ass-parent/ass-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ass-pojo/ass-pojo.iml" filepath="$PROJECT_DIR$/ass-pojo/ass-pojo.iml" />
+    </modules>
+  </component>
+</project>

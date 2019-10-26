@@ -1,0 +1,11 @@
+com\ass\manager\controller\DepartmentController.class
+com\ass\manager\controller\TeacherController.class
+com\ass\manager\controller\LoginController.class
+com\ass\manager\controller\AutoController.class
+com\ass\manager\controller\PageController.class
+com\ass\manager\controller\CourseController.class
+com\ass\manager\controller\ClassRoomController.class
+com\ass\manager\controller\ClassController.class
+com\ass\manager\controller\StudentController.class
+com\ass\manager\controller\AdminController.class
+com\ass\manager\interceptor\LoginInterceptor.class

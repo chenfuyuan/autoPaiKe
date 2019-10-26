@@ -1,0 +1,8 @@
+com\ass\manager\service\CourseService.class
+com\ass\manager\service\StudentService.class
+com\ass\manager\service\TeacherService.class
+com\ass\manager\service\AdminService.class
+com\ass\manager\service\ClassRoomService.class
+com\ass\manager\service\ClassService.class
+com\ass\manager\service\DepartmentService.class
+com\ass\manager\service\AutoService.class

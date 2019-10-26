@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ass-manager-web:war">
+    <output-path>$PROJECT_DIR$/ass-manager/ass-manager-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ass-manager-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ass-manager-web.war">
+      <element id="artifact" artifact-name="ass-manager-web:war exploded" />
+    </root>
+  </artifact>
+</component>

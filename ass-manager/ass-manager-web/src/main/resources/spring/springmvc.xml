@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd
+        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+
+	<!-- 加载配置文件 -->
+	<context:property-placeholder location="classpath:conf/resource.properties" />
+
+	<!-- 扫描@Controller -->
+	<context:component-scan base-package="com.ass.manager.controller" />
+	
+	<!-- 注解驱动 -->
+	<mvc:annotation-driven />
+	
+	<!-- 视图解释器 -->
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+	
+	<!-- 配置资源映射 -->
+	<mvc:resources location="/css/" mapping="/css/**"/>
+	<mvc:resources location="/js/" mapping="/js/**"/>
+	<mvc:resources location="/lib/" mapping="/lib/**"/>
+	<mvc:resources location="/static/" mapping="/static/**"/>
+	<mvc:resources location="/images/" mapping="/images/**"/>
+	<mvc:resources location="/scripts/" mapping="/scripts/**"/>
+	<mvc:resources location="/style/" mapping="/style/**"/>
+	<mvc:resources location="/temp/" mapping="/temp/**"/>
+	<mvc:resources location="/assets/" mapping="/assets/**"/>
+	<!-- 定义文件上传解析器 -->
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<!-- 设定默认编码 -->
+		<property name="defaultEncoding" value="UTF-8"></property>
+		<!-- 设定文件上传的最大值5MB，5*1024*1024 -->
+		<property name="maxUploadSize" value="5242880"></property>
+	</bean>
+	
+	<!-- 配置拦截器 -->
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<!-- 拦截所有mvc控制器 -->
+			<mvc:mapping path="/**"/>
+			<!-- mvc:exclude-mapping是另外一种拦截，它可以在你后来的测试中对某个页面进行不拦截，这样就不用在
+				LoginInterceptor的preHandler方法里面获取不拦截的请求uri地址 -->
+			<mvc:exclude-mapping path="/**/*.css"/>
+			<mvc:exclude-mapping path="/**/*.js"/>
+			
+			<mvc:exclude-mapping path="/login" />
+			<mvc:exclude-mapping path="/user/login" />
+			<mvc:exclude-mapping path="/validatecode" />
+			<bean class="com.ass.manager.interceptor.LoginInterceptor"></bean>			
+		</mvc:interceptor>
+	</mvc:interceptors>
+
+</beans>
