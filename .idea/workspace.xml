@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="560484ee-ad4f-480e-860a-69886be32309" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass-manager/ass-manager-web/target/tomcat/logs/access_log.2019-10-26" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ass-manager/bin/" />
     <ignored path="$PROJECT_DIR$/ass-parent/bin/" />
@@ -34,15 +35,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ass-manager/ass-manager-service/src/main/java/com/ass/manager/service/autoPaike/GAAlgorithm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3591">
-              <caret line="138" column="2" selection-start-line="138" selection-start-column="2" selection-end-line="138" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ass-manager/ass-manager-service/src/main/java/com/ass/manager/service/autoPaike/Chromsome.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -51,11 +43,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ass-parent/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="27">
               <caret line="3" column="20" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="351">
+                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -99,7 +103,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ass-manager/ass-manager-service/src/main/java/com/ass/manager/service/autoPaike/ResolveConflict.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-945">
+            <state relative-caret-position="432">
               <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
             </state>
           </provider>
@@ -108,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ass-manager/ass-manager-service/src/main/java/com/ass/manager/service/autoPaike/Individual.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="3915">
               <caret line="153" selection-start-line="153" selection-end-line="153" />
             </state>
           </provider>
@@ -198,9 +202,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="770" />
-    <option name="width" value="1155" />
-    <option name="height" value="720" />
+    <option name="width" value="1920" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -208,7 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,6 +222,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -429,7 +432,8 @@
       <workItem from="1562229664808" duration="1798000" />
       <workItem from="1562328311079" duration="3211000" />
       <workItem from="1562391377217" duration="4310000" />
-      <workItem from="1572078373837" duration="2127000" />
+      <workItem from="1572078373837" duration="3380000" />
+      <workItem from="1574092060536" duration="345000" />
     </task>
     <servers />
   </component>
@@ -466,12 +470,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52644000" />
+    <option name="totallyTimeSpent" value="54242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992928" visible="true" weight="0.1977612" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992928" visible="true" weight="0.19989339" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -482,7 +486,7 @@
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.4284165" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.96746206" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -498,7 +502,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.28464818" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.28464818" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -782,10 +786,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ass-manager/ass-manager-service/src/main/java/com/ass/manager/service/autoPaike/StatisticsScore.java">
+    <entry file="file://$PROJECT_DIR$/ass-manager/ass-manager-service/src/main/java/com/ass/manager/service/autoPaike/GAAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="3591">
+          <caret line="138" column="2" selection-start-line="138" selection-start-column="2" selection-end-line="138" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ass-manager/ass-manager-service/src/main/java/com/ass/manager/service/autoPaike/Chromsome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -803,24 +814,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ass-manager/ass-manager-service/src/main/java/com/ass/manager/service/autoPaike/GAUtils.java">
+    <entry file="file://$PROJECT_DIR$/ass-manager/ass-manager-service/src/main/java/com/ass/manager/service/autoPaike/StatisticsScore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ass-manager/ass-manager-service/src/main/java/com/ass/manager/service/autoPaike/Chromsome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ass-manager/ass-manager-service/src/main/java/com/ass/manager/service/autoPaike/GAAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3591">
-          <caret line="138" column="2" selection-start-line="138" selection-start-column="2" selection-end-line="138" selection-end-column="2" />
+        <state relative-caret-position="189">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -833,22 +830,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ass-manager/ass-manager-service/src/main/java/com/ass/manager/service/autoPaike/ResolveConflict.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-945">
+        <state relative-caret-position="432">
           <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ass-manager/ass-manager-service/src/main/java/com/ass/manager/service/autoPaike/Individual.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="3915">
           <caret line="153" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ass-manager/ass-manager-service/src/main/java/com/ass/manager/service/autoPaike/GAUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ass-parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="27">
           <caret line="3" column="20" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="351">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

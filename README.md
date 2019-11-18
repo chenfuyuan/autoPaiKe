@@ -9,3 +9,15 @@ autoPaiKe项目是基于遗传算法开发的高校自动排课系统。采用SS
 ![](https://i.imgur.com/tpZFV8Y.png)
 系统主页
 ![](https://i.imgur.com/gXgvPdc.png)
+
+排课界面
+
+![image-20191118235230666](C:\Users\chenf\AppData\Roaming\Typora\typora-user-images\image-20191118235230666.png)
+
+排课结果
+
+![image-20191118235414691](C:\Users\chenf\AppData\Roaming\Typora\typora-user-images\image-20191118235414691.png)
+
+![image-20191118235433538](C:\Users\chenf\AppData\Roaming\Typora\typora-user-images\image-20191118235433538.png)
+
+![image-20191118235507270](C:\Users\chenf\AppData\Roaming\Typora\typora-user-images\image-20191118235507270.png)
