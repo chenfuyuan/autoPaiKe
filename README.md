@@ -11,11 +11,11 @@ autoPaiKe项目是基于遗传算法开发的高校自动排课系统。采用SS
 ![](https://i.imgur.com/gXgvPdc.png)
 
 排课界面
-![Uploading image-20191118235230666.png…]()
+![](images/image-20191118235230666.png)
 排课结果
-![Uploading image-20191118235414691.png…]()
-![Uploading image-20191118235433538.png…]()
-![Uploading image-20191118235507270.png…]()
+![](images/image-20191118235414691.png)
+![](images/image-20191118235433538.png)
+![](images/image-20191118235507270.png)
  
 
 
