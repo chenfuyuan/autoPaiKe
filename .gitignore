@@ -29,3 +29,7 @@ hs_err_pid*
 
 target
 test
+
+*.settings
+*.classpath
+*.project
